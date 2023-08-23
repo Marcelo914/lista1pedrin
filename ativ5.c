@@ -10,7 +10,7 @@ int main(void)
   scanf("%i", &num1);
   scanf("%i", &num2);
 
-  if (num1 || num2 == 0) {
+  if (num2 == 0) {
     printf("Essa operação não é possivel");
   }
   else {
