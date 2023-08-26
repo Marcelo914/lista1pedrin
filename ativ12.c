@@ -1,10 +1,8 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 int main(void)
 {
   int num, maior, menor;
-  bool next;
 
   printf("Digite numeros\n");
 
@@ -17,7 +15,7 @@ int main(void)
     printf("Nenhum número válido foi digitado\n");
   }
 
-  while (true) {
+  while (1) {
     printf("Digite um número: \n");
     scanf("%d", &num);
 
